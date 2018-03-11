@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3F757553204DE6AB00BF365D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F757552204DE6AB00BF365D /* AppDelegate.swift */; };
-		3F757555204DE6AB00BF365D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F757554204DE6AB00BF365D /* ViewController.swift */; };
+		3F757555204DE6AB00BF365D /* DownloadImgOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F757554204DE6AB00BF365D /* DownloadImgOperation.swift */; };
 		3F75755A204DE6AB00BF365D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F757559204DE6AB00BF365D /* Assets.xcassets */; };
 		3F75755D204DE6AB00BF365D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F75755B204DE6AB00BF365D /* LaunchScreen.storyboard */; };
-		3F757568204DE6AC00BF365D /* ClosureAndGCDAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F757567204DE6AC00BF365D /* ClosureAndGCDAppTests.swift */; };
 		3F757574204DE81B00BF365D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F757572204DE81B00BF365D /* ImageViewController.swift */; };
 		3F757575204DE81B00BF365D /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F757573204DE81B00BF365D /* ImageViewController.xib */; };
 /* End PBXBuildFile section */
@@ -29,13 +28,11 @@
 /* Begin PBXFileReference section */
 		3F75754F204DE6AB00BF365D /* ClosureAndGCDApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosureAndGCDApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F757552204DE6AB00BF365D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F757554204DE6AB00BF365D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F757554204DE6AB00BF365D /* DownloadImgOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImgOperation.swift; sourceTree = "<group>"; };
 		3F757559204DE6AB00BF365D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F75755C204DE6AB00BF365D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F75755E204DE6AB00BF365D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F757563204DE6AC00BF365D /* ClosureAndGCDAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClosureAndGCDAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F757567204DE6AC00BF365D /* ClosureAndGCDAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureAndGCDAppTests.swift; sourceTree = "<group>"; };
-		3F757569204DE6AC00BF365D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F757572204DE81B00BF365D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		3F757573204DE81B00BF365D /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				3F757551204DE6AB00BF365D /* ClosureAndGCDApp */,
-				3F757566204DE6AC00BF365D /* ClosureAndGCDAppTests */,
 				3F757550204DE6AB00BF365D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				3F757552204DE6AB00BF365D /* AppDelegate.swift */,
-				3F757554204DE6AB00BF365D /* ViewController.swift */,
+				3F757554204DE6AB00BF365D /* DownloadImgOperation.swift */,
 				3F757559204DE6AB00BF365D /* Assets.xcassets */,
 				3F75755B204DE6AB00BF365D /* LaunchScreen.storyboard */,
 				3F75755E204DE6AB00BF365D /* Info.plist */,
@@ -88,15 +84,6 @@
 				3F757573204DE81B00BF365D /* ImageViewController.xib */,
 			);
 			path = ClosureAndGCDApp;
-			sourceTree = "<group>";
-		};
-		3F757566204DE6AC00BF365D /* ClosureAndGCDAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				3F757567204DE6AC00BF365D /* ClosureAndGCDAppTests.swift */,
-				3F757569204DE6AC00BF365D /* Info.plist */,
-			);
-			path = ClosureAndGCDAppTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F757555204DE6AB00BF365D /* ViewController.swift in Sources */,
+				3F757555204DE6AB00BF365D /* DownloadImgOperation.swift in Sources */,
 				3F757574204DE81B00BF365D /* ImageViewController.swift in Sources */,
 				3F757553204DE6AB00BF365D /* AppDelegate.swift in Sources */,
 			);
@@ -212,7 +199,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F757568204DE6AC00BF365D /* ClosureAndGCDAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
